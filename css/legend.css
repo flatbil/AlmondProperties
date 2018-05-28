@@ -71,6 +71,7 @@ ul#navmenu a{
 	box-shadow: 0px 0px 4px #999;
 	margin: 1% 3%;
 	align-content: center;
+	overflow: auto;
 }
 .property .header{
 	background: #14005f;
