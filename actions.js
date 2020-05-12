@@ -5,6 +5,18 @@ org: Nuthouse Web Solutions, 2016
 */
 
 var myIndex = 0;
+var modal = document.getElementById("myModal");
+var img = document.getElementById("myImg");
+var modImg = document.getElementById("img01");
+
+img.onclick = function(){
+    modal.style.display = "block";
+    // modImg.src = this.src;
+}
+var span = document.getElementsByClassName("close")[0];
+span.onclick = function(){
+    modal.style.display = "none";
+}
 carousel();
 
 function carousel() {
